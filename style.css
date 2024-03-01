@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+}
+.photo{
+    width: 40%;
+    height: 250px;
+    padding: 3%;
+    border-radius: 40px;
+    box-shadow: 7px 7px 4px lightblue;
+    
+}
+header{
+    background-color: black;
+}
+header h1{
+    color: white;
+    padding: 3%;
+    text-align: center;
+    text-transform: uppercase;
+}
